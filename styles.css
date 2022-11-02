@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100px;
+  margin-left: 20px;
+}
+
+.about {
+  padding-right: 12px;
+}
+
+.right-side {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.gmail {
+  margin-right: 20px;
+}
+
+.images {
+  margin-right: 20px;
+}
+
+.google-apps {
+  width: 20px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.profile-picture {
+  margin-right: 20px;
+  height: 40px;
+}
+
+.google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-logo {
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+
+.search-bar,
+.buttons {
+  display: flex;
+  margin: 20px;
+}
+
+.search-bar {
+  display: flex;
+  max-width: 400px;
+}
+
+.search {
+  display: flex;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.google-search {
+  margin-right: 25px;
+}
